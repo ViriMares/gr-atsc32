@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<block>
+  <name>ATSC 3.0 LDPC Encoder</name>
+  <key>atsc32_ldpc_encoder_bb</key>
+  <category>[atsc32]</category>
+  <import>import atsc32</import>
+  <make>atsc32.ldpc_encoder_bb($framesize.val, $rate.val)</make>
+
+  <param>
+    <name>FECFRAME size</name>
+    <key>framesize</key>
+    <type>enum</type>
+    <option>
+      <name>Normal</name>
+      <key>FECFRAME_NORMAL</key>
+      <opt>val:atsc32.FECFRAME_NORMAL</opt>
+    </option>
+    <option>
+      <name>Short</name>
+      <key>FECFRAME_SHORT</key>
+      <opt>val:atsc32.FECFRAME_SHORT</opt>
+    </option>
+  </param>
+
+  <param>
+    <name>Code rate</name>
+    <key>rate</key>
+    <type>enum</type>
+    <option>
+      <name>6/15</name>
+      <key>C6_15</key>
+      <opt>val:atsc32.C6_15</opt>
+    </option>
+    <option>
+      <name>7/15</name>
+      <key>C7_15</key>
+      <opt>val:atsc32.C7_15</opt>
+    </option>
+    <option>
+      <name>8/15</name>
+      <key>C8_15</key>
+      <opt>val:atsc32.C8_15</opt>
+    </option>
+    <option>
+      <name>9/15</name>
+      <key>C9_15</key>
+      <opt>val:atsc32.C9_15</opt>
+    </option>
+    <option>
+      <name>10/15</name>
+      <key>C10_15</key>
+      <opt>val:atsc32.C10_15</opt>
+    </option>
+    <option>
+      <name>11/15</name>
+      <key>C11_15</key>
+      <opt>val:atsc32.C11_15</opt>
+    </option>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>
