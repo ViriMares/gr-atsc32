@@ -4,16 +4,141 @@
   <key>atsc32_ldm_cc</key>
   <category>[atsc32]</category>
   <import>import atsc32</import>
-  <make>atsc32.ldm_cc($multiple)</make>
+  <make>atsc32.ldm_cc($multiplier)</make>
   <!-- Make one 'param' node for every Parameter you want settable from the GUI.
        Sub-nodes:
        * name
        * key (makes the value accessible as $keyname, e.g. in the make node)
        * type -->
   <param>
-    <name>alfa</name>
-    <key>multiple</key>
-    <type>float</type>
+    <name>Multiplier Factor</name>
+    <key>multiplier</key>
+    <value>1.0000000</value>
+    <type>enum</type>
+    <option>
+      <name>0 dB</name>
+      <key>1.0000000</key>
+    </option>
+    <option>
+      <name>0.5 dB</name>
+      <key>0.9440609</key>
+    </option>
+    <option>
+      <name>1.0 dB</name>
+      <key>0.8912509</key>
+    </option>
+    <option>
+      <name>1.5 dB</name>
+      <key>0.8413951</key>
+    </option>
+    <option>
+      <name>2.0 dB</name>
+      <key>0.7943282</key>
+    </option>
+    <option>
+      <name>2.5 dB</name>
+      <key>0.7498942</key>
+    </option>
+    <option>
+      <name>3 dB</name>
+      <key>0.7079458</key>
+    </option>
+    <option>
+      <name>3.5 dB</name>
+      <key>0.6683439</key>
+    </option>
+    <option>
+      <name>4 dB</name>
+      <key>0.6309573</key>
+    </option>
+    <option>
+      <name>4.5 dB</name>
+      <key>0.5956621</key>
+    </option>
+    <option>
+      <name>5 dB</name>
+      <key>0.5623413</key>
+    </option>
+    <option>
+      <name>6 dB</name>
+      <key>0.5011872</key>
+    </option>
+    <option>
+      <name>7 dB</name>
+      <key>0.4466836</key>
+    </option>
+    <option>
+      <name>8 dB</name>
+      <key>0.3981072</key>
+    </option>
+    <option>
+      <name>9 dB</name>
+      <key>0.3548134</key>
+    </option>
+    <option>
+      <name>10 dB</name>
+      <key>0.3162278</key>
+    </option>
+    <option>
+      <name>11 dB</name>
+      <key>0.2818383</key>
+    </option>
+    <option>
+      <name>12 dB</name>
+      <key>0.2511886</key>
+    </option>
+    <option>
+      <name>13 dB</name>
+      <key>0.2238721</key>
+    </option>
+    <option>
+      <name>14 dB</name>
+      <key>0.1995262</key>
+    </option>
+    <option>
+      <name>15 dB</name>
+      <key>0.1778279</key>
+    </option>
+    <option>
+      <name>16 dB</name>
+      <key>0.1584893</key>
+    </option>
+    <option>
+      <name>17 dB</name>
+      <key>0.1412538</key>
+    </option>
+    <option>
+      <name>18 dB</name>
+      <key>0.1258925</key>
+    </option>
+    <option>
+      <name>19 dB</name>
+      <key>0.1122018</key>
+    </option>
+    <option>
+      <name>20 dB</name>
+      <key>0.1000000</key>
+    </option>
+    <option>
+      <name>21 dB</name>
+      <key>0.0891251</key>
+    </option>
+    <option>
+      <name>22 dB</name>
+      <key>0.0794328</key>
+    </option>
+    <option>
+      <name>23 dB</name>
+      <key>0.0707946</key>
+    </option>
+    <option>
+      <name>24 dB</name>
+      <key>0.0630957</key>
+    </option>
+    <option>
+      <name>25 dB</name>
+      <key>0.0562341</key>
+    </option>
   </param>
 
   <!-- Make one 'sink' node per input. Sub-nodes:
