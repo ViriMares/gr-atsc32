@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<block>
+  <name>ATSC 3.0 Modulator</name>
+  <key>atsc32_modulator_bc</key>
+  <category>[atsc32]</category>
+  <import>import atsc32</import>
+  <make>atsc32.modulator_bc($constellation, $rate)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Constellation</name>
+    <key>constellation</key>
+    <type>enum</type>
+    <option>
+      <name>QPSK UC</name>
+      <key>1</key>
+    </option>
+    <option>
+      <name>16QAM NUC</name>
+      <key>2</key>
+    </option>
+    <option>
+      <name>64QAM NUC</name>
+      <key>3</key>
+    </option>
+    <option>
+      <name>256QAM NUC</name>
+      <key>4</key>
+    </option>
+    <option>
+      <name>1024QAM NUC</name>
+      <key>5</key>
+    </option>
+  </param>
+
+  <param>
+    <name>Code Rate</name>
+    <key>rate</key>
+    <type>enum</type>
+    <option>
+      <name>6/15</name>
+      <key>6</key>
+    </option>
+    <option>
+      <name>7/15</name>
+      <key>7</key>
+    </option>
+    <option>
+      <name>8/15</name>
+      <key>8</key>
+    </option>
+    <option>
+      <name>9/15</name>
+      <key>9</key>
+    </option>
+    <option>
+      <name>10/15</name>
+      <key>10</key>
+    </option>
+    <option>
+      <name>11/15</name>
+      <key>11</key>
+    </option>
+    <option>
+      <name>12/15</name>
+      <key>12</key>
+    </option>
+    <option>
+      <name>13/15</name>
+      <key>13</key>
+    </option>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -31,7 +31,8 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    ldm_cc.py DESTINATION ${GR_PYTHON_DIR}/atsc32
+    ldm_cc.py
+    modulator_bc.py DESTINATION ${GR_PYTHON_DIR}/atsc32
 )
 
 ########################################################################
@@ -43,3 +44,4 @@ set(GR_TEST_TARGET_DEPS gnuradio-atsc32)
 set(GR_TEST_PYTHON_DIRS ${CMAKE_BINARY_DIR}/swig)
 GR_ADD_TEST(qa_ldpc_encoder_bb ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ldpc_encoder_bb.py)
 GR_ADD_TEST(qa_ldm_cc ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_ldm_cc.py)
+GR_ADD_TEST(qa_modulator_bc ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_modulator_bc.py)

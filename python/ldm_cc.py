@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Copyright 2018 <+YOU OR YOUR COMPANY+>.
+# Copyright 2018 Viridiana Mares, Facultad de Ingeniería UNAM.
 #
 # This is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -24,7 +24,12 @@ from gnuradio import blocks
 
 class ldm_cc(gr.hier_block2):
     """
-    docstring for block ldm_cc
+    This is the LDM block from the standar ATSC 3.0.
+    This block need two parameters: multiplier factor and normalizing factor.
+    LDM combine two layer called "core layyer" and "enhanced layer". Before combination, enhanced layer is multiplied by a factor. After combination, the complete signal is normalized.
+
+    More information about the block can consult Physical Layer Protocol document A322 available here:
+    https://www.atsc.org/wp-content/uploads/2016/10/A322-2017a-Physical-Layer-Protocol-2.pdf
     """
     def __init__(self, multiplier):
         gr.hier_block2.__init__(self,

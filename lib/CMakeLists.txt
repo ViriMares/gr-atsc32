@@ -24,10 +24,9 @@ include(GrPlatform) #define LIB_SUFFIX
 
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
-
 list(APPEND atsc32_sources
     ldpc_encoder_bb_impl.cc
-)
+    )
 
 set(atsc32_sources "${atsc32_sources}" PARENT_SCOPE)
 if(NOT atsc32_sources)

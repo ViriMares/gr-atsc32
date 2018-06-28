@@ -18,5 +18,6 @@
 # Boston, MA 02110-1301, USA.
 install(FILES
     atsc32_ldpc_encoder_bb.xml
-    atsc32_ldm_cc.xml DESTINATION share/gnuradio/grc/blocks
+    atsc32_ldm_cc.xml
+    atsc32_modulator_bc.xml DESTINATION share/gnuradio/grc/blocks
 )
