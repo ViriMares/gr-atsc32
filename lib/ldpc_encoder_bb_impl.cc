@@ -54,6 +54,12 @@ namespace gr {
                     q_val = 108;
                     break;
 
+                //Se asignan valores por default, no existe tasa de 7/15 para un frmae de tamaño normal
+                case gr::atsc32::C7_15:
+                    nouter = 7560;
+                    q_val = 24;
+                    break;   
+
                 case gr::atsc32::C8_15:
                     nouter = 34560;
                     q_val = 84;
@@ -166,10 +172,16 @@ void ldpc_encoder_bb_impl::ldpc_lookup_generate()
 
     if (frame_size == FRAME_SIZE_NORMAL)
     {
-        cout << ">>> Code length: Normal" << endl;
+        cout << ">>> Running a LDPC encoder" << endl;
+        cout << "Code length: Normal" << endl;
+
         if (code_rate == gr::atsc32::C6_15) {
             LDPC_BF(ldpc_tab_6_15N, 72);
             cout << "Encoding at 6/15" << endl;
+        }
+
+        if (code_rate == gr::atsc32::C7_15) {
+            cout << "There is no coding rate of 7/15 for a normal code length, the signal has not been processed correctly" << endl;
         }
 
         if (code_rate == gr::atsc32::C8_15)  {
@@ -194,7 +206,8 @@ void ldpc_encoder_bb_impl::ldpc_lookup_generate()
     }
     else
     {
-        cout << ">>> Code length: Short" << endl;
+        cout << ">>> Running a LDPC encoder" << endl;
+        cout << "Code length: Short" << endl;
         if (code_rate == gr::atsc32::C6_15) {
             LDPC_BF(ldpc_tab_6_15S, 18);
             cout << "Encoding at 6/15" << endl;
