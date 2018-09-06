@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gr-atsc32"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\lib\;CMake Files\..\..\lib\cmake\;CMake Files\..\..\lib\cmake\gnuradio\;CMake Files\include\;CMake Files\include\atsc32\;CMake Files\lib\;CMake Files\swig\;CMake Files\docs\;CMake Files\docs\doxygen\;CMake Files\python\;CMake Files\grc\;CMake Files\apps\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-atsc32">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/test-atsc32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 test-atsc32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-atsc32/fast">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/test-atsc32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 test-atsc32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gnuradio-atsc32">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/libgnuradio-atsc32.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 gnuradio-atsc32"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gnuradio-atsc32/fast">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/libgnuradio-atsc32.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 gnuradio-atsc32/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_atsc32_swig_doc_tag">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig_doc_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _atsc32_swig_doc_tag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_atsc32_swig_doc_tag/fast">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig_doc_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _atsc32_swig_doc_tag/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_atsc32_swig_swig_tag">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig_swig_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _atsc32_swig_swig_tag"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_atsc32_swig_swig_tag/fast">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig_swig_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _atsc32_swig_swig_tag/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_atsc32_swig">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _atsc32_swig"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_atsc32_swig/fast">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _atsc32_swig/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atsc32_swig_swig_2d0df">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig_swig_2d0df" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 atsc32_swig_swig_2d0df"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atsc32_swig_swig_2d0df/fast">
+				<Option output="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig_swig_2d0df" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/include"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/lib"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/swig"/>
+					<Add directory="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 atsc32_swig_swig_2d0df/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_swig_97a90">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 pygen_swig_97a90"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_python_dc38f">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/python"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 pygen_python_dc38f"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_apps_9a6dd">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/apps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 pygen_apps_9a6dd"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doxygen_target">
+				<Option working_dir="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/docs/doxygen"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 doxygen_target"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig_doc_tag.cpp">
+			<Option target="_atsc32_swig_doc_tag"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/_atsc32_swig_swig_tag.cpp">
+			<Option target="_atsc32_swig_swig_tag"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig.py">
+			<Option target="_atsc32_swig"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig.py.rule">
+			<Option target="_atsc32_swig"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig.tag.rule">
+			<Option target="atsc32_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swigPYTHON_wrap.cxx">
+			<Option target="_atsc32_swig"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swigPYTHON_wrap.cxx.rule">
+			<Option target="_atsc32_swig"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig_doc.i.rule">
+			<Option target="atsc32_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig_doc_swig_docs/xml/index.xml.rule">
+			<Option target="atsc32_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig_swig_2d0df.cpp">
+			<Option target="atsc32_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake-build-debug/swig/atsc32_swig_swig_2d0df.cpp.rule">
+			<Option target="atsc32_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/lib/ldpc_encoder_bb_impl.cc">
+			<Option target="gnuradio-atsc32"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/lib/ldpc_encoder_bb_impl.h">
+			<Option target="gnuradio-atsc32"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/lib/qa_atsc32.cc">
+			<Option target="test-atsc32"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/lib/qa_atsc32.h">
+			<Option target="test-atsc32"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/lib/test_atsc32.cc">
+			<Option target="test-atsc32"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrPlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/FindCppUnit.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrPlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrTest.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrSwig.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrMiscUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrMiscUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrTest.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/../../lib/cmake/gnuradio/GnuradioConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/../../lib/cmake/gnuradio/GnuradioConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/../../lib/cmake/gnuradio/GrVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/../../lib/cmake/gnuradio/FindGit.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/../../lib/cmake/gnuradio/FindSWIG.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/../../lib/cmake/gnuradio/UseSWIG.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/include/atsc32/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\atsc32\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/swig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\swig\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\docs\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/docs/doxygen/Doxyfile.swig_doc.in">
+			<Option virtualFolder="CMake Files\docs\doxygen\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/docs/doxygen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\docs\doxygen\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/docs/doxygen/Doxyfile.in">
+			<Option virtualFolder="CMake Files\docs\doxygen\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\python\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/grc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\grc\"/>
+		</Unit>
+		<Unit filename="/usr/local/gr-modtool/gr-atsc32/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

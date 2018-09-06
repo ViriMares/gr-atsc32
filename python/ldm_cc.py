@@ -51,7 +51,8 @@ class ldm_cc(gr.hier_block2):
         self.connect(self.blocks_add_xx, self.blocks_multiply_const_vxx_1)
     	self.connect(self.blocks_multiply_const_vxx_1, self)
 
-        print
+        print "--------------------------------------------------"
         print "LDM:"
         print "Multiplier Factor Alfa =", multiplier
         print "Normalizing Factor Beta=", norm
+        print "--------------------------------------------------"

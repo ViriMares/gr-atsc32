@@ -16,23 +16,23 @@
     <type>enum</type>
     <option>
       <name>QPSK UC</name>
-      <key>1</key>
+      <key>'qpsk'</key>
     </option>
     <option>
       <name>16QAM NUC</name>
-      <key>2</key>
+      <key>'qam16'</key>
     </option>
     <option>
       <name>64QAM NUC</name>
-      <key>3</key>
+      <key>'qam64'</key>
     </option>
     <option>
       <name>256QAM NUC</name>
-      <key>4</key>
+      <key>'qam256'</key>
     </option>
     <option>
       <name>1024QAM NUC</name>
-      <key>5</key>
+      <key>'qam1024'</key>
     </option>
   </param>
 
@@ -40,6 +40,22 @@
     <name>Code Rate</name>
     <key>rate</key>
     <type>enum</type>
+    <option>
+      <name>2/15</name>
+      <key>2</key>
+    </option>
+    <option>
+      <name>3/15</name>
+      <key>3</key>
+    </option>
+    <option>
+      <name>4/15</name>
+      <key>4</key>
+    </option>
+    <option>
+      <name>5/15</name>
+      <key>5</key>
+    </option>
     <option>
       <name>6/15</name>
       <key>6</key>

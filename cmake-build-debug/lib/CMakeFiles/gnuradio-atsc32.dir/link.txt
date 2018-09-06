@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -g  -shared -Wl,-soname,libgnuradio-atsc32.so -o libgnuradio-atsc32.so CMakeFiles/gnuradio-atsc32.dir/ldpc_encoder_bb_impl.cc.o -Wl,-rpath,/usr/local/lib: -lboost_filesystem -lboost_system /usr/local/lib/libgnuradio-runtime.so /usr/local/lib/libgnuradio-pmt.so -llog4cpp 

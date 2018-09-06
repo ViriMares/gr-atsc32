@@ -1,0 +1,158 @@
+/home/viri/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /usr/local/gr-modtool/gr-atsc32
+CMake Deprecation Warning at CMakeLists.txt:54 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Checking for module 'cppunit'
+--   Found cppunit, version 1.13.2
+Checking for GNU Radio Module: RUNTIME
+-- Checking for module 'gnuradio-runtime'
+--   Found gnuradio-runtime, version 3.7.12git
+ * INCLUDES=/usr/local/include
+ * LIBS=/usr/local/lib/libgnuradio-runtime.so;/usr/local/lib/libgnuradio-pmt.so;/usr/lib/liblog4cpp.so
+GNURADIO_RUNTIME_FOUND = TRUE
+-- Extracting version information from git describe...
+-- Using install prefix: /usr/local
+-- Building for version: 5c4745cc / 1.0.0git
+-- 
+-- Checking for module SWIG
+-- Found SWIG version 2.0.12.
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 44
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  cmake/Modules/GrSwig.cmake:25 (include)
+  swig/CMakeLists.txt:36 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 92
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  cmake/Modules/GrSwig.cmake:25 (include)
+  swig/CMakeLists.txt:36 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 100
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  cmake/Modules/GrSwig.cmake:25 (include)
+  swig/CMakeLists.txt:36 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 44
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  swig/CMakeLists.txt:37 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 92
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  swig/CMakeLists.txt:37 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 100
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  swig/CMakeLists.txt:37 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 44
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  cmake/Modules/GrSwig.cmake:182 (include)
+  swig/CMakeLists.txt:55 (GR_SWIG_INSTALL)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 92
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  cmake/Modules/GrSwig.cmake:182 (include)
+  swig/CMakeLists.txt:55 (GR_SWIG_INSTALL)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 100
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  cmake/Modules/GrSwig.cmake:182 (include)
+  swig/CMakeLists.txt:55 (GR_SWIG_INSTALL)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 44
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  python/CMakeLists.txt:23 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 92
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  python/CMakeLists.txt:23 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 100
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  python/CMakeLists.txt:23 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 44
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  apps/CMakeLists.txt:20 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 92
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  apps/CMakeLists.txt:20 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/Modules/GrPython.cmake:196:
+  Syntax Warning in cmake code at column 100
+
+  Argument not separated from preceding token by whitespace.
+Call Stack (most recent call first):
+  apps/CMakeLists.txt:20 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /usr/local/gr-modtool/gr-atsc32/cmake-build-debug
