@@ -19,5 +19,6 @@
 install(FILES
     atsc32_ldpc_encoder_bb.xml
     atsc32_ldm_cc.xml
-    atsc32_modulator_bc.xml DESTINATION share/gnuradio/grc/blocks
+    atsc32_modulator_bc.xml
+    atsc32_bitinterleaver_bb.xml DESTINATION share/gnuradio/grc/blocks
 )

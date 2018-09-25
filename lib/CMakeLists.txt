@@ -26,7 +26,7 @@ include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 list(APPEND atsc32_sources
     ldpc_encoder_bb_impl.cc
-    )
+    bitinterleaver_bb_impl.cc )
 
 set(atsc32_sources "${atsc32_sources}" PARENT_SCOPE)
 if(NOT atsc32_sources)
@@ -64,6 +64,7 @@ include_directories(${CPPUNIT_INCLUDE_DIRS})
 list(APPEND test_atsc32_sources
     ${CMAKE_CURRENT_SOURCE_DIR}/test_atsc32.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_atsc32.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/qa_bitinterleaver_bb.cc
 )
 
 add_executable(test-atsc32 ${test_atsc32_sources})

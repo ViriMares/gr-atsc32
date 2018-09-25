@@ -26,11 +26,13 @@
  */
 
 #include "qa_atsc32.h"
+#include "qa_bitinterleaver_bb.h"
 
 CppUnit::TestSuite *
 qa_atsc32::suite()
 {
   CppUnit::TestSuite *s = new CppUnit::TestSuite("atsc32");
+  s->addTest(gr::atsc32::qa_bitinterleaver_bb::suite());
 
   return s;
 }

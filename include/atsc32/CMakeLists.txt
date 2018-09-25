@@ -23,5 +23,5 @@
 install(FILES
     api.h
     ldpc_encoder_bb.h
-    DESTINATION include/atsc32
+    bitinterleaver_bb.h DESTINATION include/atsc32
 )

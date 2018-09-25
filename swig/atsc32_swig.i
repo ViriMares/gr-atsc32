@@ -10,9 +10,12 @@
 %{
 #include "atsc32/atsc32_config.h"
 #include "atsc32/ldpc_encoder_bb.h"
+#include "atsc32/bitinterleaver_bb.h"
 %}
 
 %include "atsc32/atsc32_config.h"
 %include "atsc32/ldpc_encoder_bb.h"
 GR_SWIG_BLOCK_MAGIC2(atsc32, ldpc_encoder_bb);
 
+%include "atsc32/bitinterleaver_bb.h"
+GR_SWIG_BLOCK_MAGIC2(atsc32, bitinterleaver_bb);
